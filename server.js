@@ -6,7 +6,7 @@ const server = require("http").Server(app);
 const io = require("socket.io")(server);
 
 const fps = 15;
-const wCap = new cv.VideoCapture(-1);
+const wCap = new cv.VideoCapture(0);
 
 const PORT = 3001;
 
